@@ -1,0 +1,28 @@
+.list-productes-client {
+
+
+}
+.menu-mobile {
+    width: 100% !important;
+    height: 70px;
+    overflow-y: scroll;
+    position: relative;
+    margin: 0 auto
+}
+
+.menu-mobile::-webkit-scrollbar {
+    display: none;
+}
+
+.menu-mobile {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}

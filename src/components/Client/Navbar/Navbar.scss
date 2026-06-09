@@ -1,0 +1,47 @@
+.imatge-perfil-item{
+    .ui.image{
+        width: 35px;
+        height: 35px;
+        object-fit: cover;
+        margin-right: 15px;
+        border-radius: 50%;
+    }
+}
+
+.position-logo {
+    position: absolute;
+    z-index: 1;
+    display: inline-block;
+
+    img {
+        height: 70px;
+        display: inline-block;
+        cursor: pointer;
+        margin: 0 10px !important;
+    }
+}
+
+.rrss {
+    position: absolute;
+    z-index: 1;
+    right: 0%;
+    top: 50px;
+
+    a {
+        color: inherit;
+        text-decoration: inherit;
+        cursor: inherit;
+    }
+
+    a:hover {
+        color: white;
+    }
+}
+
+.background-image {
+    .ui.image {
+        width: 100%;
+        height: 75px;
+        object-fit: cover;
+    }
+}

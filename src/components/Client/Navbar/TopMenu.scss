@@ -1,0 +1,12 @@
+.top-navbar {
+    background: linear-gradient(0deg, rgba(185, 101, 0, 1) 0%, rgba(200, 113, 7, 1) 10%, rgba(224, 130, 18, 1) 32%, rgba(247, 147, 29, 1) 100%);
+    .nav-menu {
+        background-color: #1b1c1d; //Taronja del club: f6931e  //gris del inverted: 1b1c1d
+
+        .ui.menu {
+            background: linear-gradient(90deg, rgba(247, 147, 29, 1) 30%, rgba(90, 144, 15, 1) 70%);
+            box-shadow: 0 -5px 15px -5px #333;
+            -webkit-box-shadow: 0 -5px 15px -5px #333;
+        }
+    }
+}

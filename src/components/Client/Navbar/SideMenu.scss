@@ -1,0 +1,19 @@
+.container_sidemenu {
+    
+    .ui.menu {
+        height: 58px; background: linear-gradient(90deg, rgba(247,147,29,1) 30%, rgba(90,144,15,1) 70%) !important;
+    }
+
+    .ui.inverted.menu {
+        background: linear-gradient(90deg, rgba(247, 147, 29, 1) 30%, rgba(90, 144, 15, 1) 70%) !important;
+    }
+    
+    img {
+        /* width="35px" height="35px" */
+    }
+    /* z-index: 2; */
+
+    .ui.left.sidebar {
+        background: linear-gradient(90deg, rgba(247, 147, 29, 1) 30%, rgba(90, 144, 15, 1) 70%) !important;
+    }
+}
